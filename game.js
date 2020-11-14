@@ -73,6 +73,7 @@ choices.foreach(choice => {
         const selectedChoice = e.target;
         const selectedChoice = selectedChoice.dataset["number"];
 
+        console.log(selectedAnswer == currentQuestion.answer);
         getNewQuestion();
     });
 });
